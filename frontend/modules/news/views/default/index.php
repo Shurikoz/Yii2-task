@@ -57,4 +57,3 @@ for ($i = 1; $i <= $pag_str; $i++){
     $page == $i ? $active = 'color:red' : $active = '';
     echo "<a href=/news/default/index?page=".$i."> <button style='{$active}'>".$i."</button> </a>";
 }?>
-
